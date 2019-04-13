@@ -34,6 +34,7 @@ public class Globals {
         new QueryNodeAND(null),
         new QueryNodeOR(null),
         new QueryNodeXOR(null),
+        new QueryNodeRegex(null),
         new QueryNodeIdentity(null)//, //insert your own node types after this line, don't forget to put back the coma on this line
         //new QueryNodeXXX(null) 
     };

@@ -189,6 +189,12 @@ This node does no processing: it just displays the data that is passed to it,
 it is mostly useful to add a control point to check if the data passed along a 
 chain of nodes is correct at a specific point where the node has been inserted.
 
+### Regex
+One Parameter:  
+- Regex: Regular expression with one submatch
+
+This node will pass content through the regex and extract only the submatch, it is usefull for prepare a node before passing to other node.
+Sample ==> ```Callback\\((.*)\\)```
 
 ## Making your own nodes:
 
